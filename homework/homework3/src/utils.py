@@ -9,3 +9,6 @@ def parse_date_column(df, column):
     )
 
     return df
+
+def get_summary_stats(df):
+    return df.describe(include="number")
